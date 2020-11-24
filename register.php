@@ -26,15 +26,12 @@ session_start();
 ?>
 
 <div class="container">
-    <form action="auth.php" method="post">
-        <?php
-        if($_SESSION["auth"] == false) {
-            echo "<h3 style='color:red'>invalid credentials</h3>";
-        }
-        ?>
+    <form action="create-user.php" method="post">
+        First name: <input type="text" name="first_name"><br>
+        Last name: <input type="text" name="last_name"><br>
         Login: <input type="text" name="login"><br>
         Password: <input type="text" name="password"><br>
-        <input type="submit" class="btn">
+        <input type="submit" class="btn" value="Register">
     </form>
 </div>
 
