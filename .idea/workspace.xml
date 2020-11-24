@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54a3a3e9-8928-4ba0-a025-75cc21fd87e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/create-user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welcome.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/php projects" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,7 +60,8 @@
       <workItem from="1605290696898" duration="2991000" />
       <workItem from="1605794887707" duration="4776000" />
       <workItem from="1605880087986" duration="138000" />
-      <workItem from="1606209665445" duration="2835000" />
+      <workItem from="1606209665445" duration="3546000" />
+      <workItem from="1606215948811" duration="2114000" />
     </task>
     <servers />
   </component>
@@ -85,10 +85,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605880225129" />
-    <state x="1009" y="667" key="NewPhpFileDialog" timestamp="1606212467376">
+    <state x="1009" y="667" key="NewPhpFileDialog" timestamp="1606217460685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1009" y="667" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606212467376" />
+    <state x="1009" y="667" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606217460685" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

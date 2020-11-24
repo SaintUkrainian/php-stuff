@@ -24,6 +24,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     $_SESSION["auth"] = true;
+    $_SESSION["login"] = $login;
     header("Location:/restricted.php");
 } else {
     $_SESSION["auth"] = false;
