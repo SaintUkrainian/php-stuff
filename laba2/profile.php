@@ -69,7 +69,13 @@ session_start();
             <button type="submit" <?php if($_SESSION["id"] != $_SESSION["clicked_id"] && $_SESSION["role"] != "admin") echo "disabled"?> class="btn btn-primary">Update</button>
         </div>
     </form>
-    <a href="homepage.php" class="primary">go home</a>
+    <a href="homepage.php" class="text-primary">go home</a>
+    <?php
+
+    if($_SESSION["role"] == "admin" && $_SESSION["clicked_role"] != "admin") {
+        $id = $_SESSION["clicked_id"];
+        echo  "<a href='delete.php?id=$id' class='text-danger'>delete user</a>";
+    } ?>
 </div>
 
 

@@ -25,6 +25,8 @@ session_start();
                 echo "<a class='btn btn-success' href='signup.php'>Sign up</a>";
             } else {
                 $id = $_SESSION["id"];
+                $username = $_SESSION['user_name'];
+                echo "<h4 class='text-light'>$username</h4>";
                 echo "<a class='btn btn-primary' href='profile.php?id=$id'>My Profile</a> ";
                 echo "<a class='btn btn-danger' href='logout.php'>Logout</a>";
             }
