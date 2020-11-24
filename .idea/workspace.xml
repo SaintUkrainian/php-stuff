@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54a3a3e9-8928-4ba0-a025-75cc21fd87e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,8 @@
       <workItem from="1605794887707" duration="4776000" />
       <workItem from="1605880087986" duration="138000" />
       <workItem from="1606209665445" duration="3546000" />
-      <workItem from="1606215948811" duration="2114000" />
+      <workItem from="1606215948811" duration="2859000" />
+      <workItem from="1606226135694" duration="18388000" />
     </task>
     <servers />
   </component>
@@ -85,10 +82,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605880225129" />
-    <state x="1009" y="667" key="NewPhpFileDialog" timestamp="1606217460685">
+    <state x="1009" y="667" key="NewPhpFileDialog" timestamp="1606243134892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1009" y="667" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606217460685" />
+    <state x="1009" y="667" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606243134892" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606229249934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606229249934" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
