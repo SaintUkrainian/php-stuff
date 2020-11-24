@@ -46,6 +46,18 @@ session_start();
     $_SESSION["email"] = $row["email"];
     $_SESSION["clicked_role"] = $row["role"];
     $_SESSION["clicked_id"] = $id;
+    $_SESSION["profile_photo"] = $row["img"];
+    ?>
+    <?php
+        echo "<img width=100 height=150 src=". $_SESSION['profile_photo'] . ">";
+    if($_SESSION["clicked_id"] == $_SESSION["id"]) {
+        echo  "<form action='upload.php' method='post' enctype='multipart/form-data'>
+            Select image to upload:
+        <input type='file' name='fileToUpload'' id='fileToUpload'>
+        <input type='submit' value='Upload Image' name='submit'>
+    </form>";
+    }
+
 
     ?>
     <form action="update.php" method="post">

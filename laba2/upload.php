@@ -17,10 +17,10 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$login = $_SESSION['login'];
-$sql = "UPDATE users SET img='$target_file' WHERE login='$login'";
+$id = $_SESSION['id'];
+$sql = "UPDATE users SET img='$target_file' WHERE id='$id'";
 $result = $conn->query($sql);
-echo "$login <br>";
+echo "$id <br>";
 
 // Check if image file is a actual image or fake image
 if(isset($_POST["submit"])) {
@@ -60,6 +60,7 @@ if ($uploadOk == 0) {
         echo "Sorry, there was an error uploading your file.";
     }
 }
+header("Location:/laba2/profile.php?id=". $id);
 
 
 
