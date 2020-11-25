@@ -14,10 +14,32 @@ session_start();
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Profile</title>
 </head>
+<header>
+    <nav class="navbar navbar-dark bg-dark">
+        <h1 class="text-light">Users' page</h1>
+        <div>
+
+            <?php
+
+            if(($_SESSION["id"] == null) && ($_SESSION["role"] == null)) {
+                echo "<a class='btn btn-info' href='login.php'>Login</a> ";
+                echo "<a class='btn btn-success' href='signup.php'>Sign up</a>";
+            } else {
+                $id = $_SESSION["id"];
+                $username = $_SESSION['user_name'];
+                echo "<h4 class='text-light'>$username</h4>";
+                echo "<a class='btn btn-primary' href='profile.php?id=$id'>My Profile</a> ";
+                echo "<a class='btn btn-danger' href='logout.php'>Logout</a>";
+            }
+
+            ?>
+        </div>
+    </nav>
+</header>
 <body>
 
 <div class="container-sm p-10">
-    <h1>Your profile</h1>
+    <h1>Person's profile</h1>
     <?php
     $array = array();
     parse_str($_SERVER['QUERY_STRING'], $array);

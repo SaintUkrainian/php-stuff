@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Sign up form</title>
 </head>
+
 <body class="bg-dark">
 
 <div class="container-sm bg-light rounded">
@@ -59,6 +60,8 @@
         </div>
         <button type="submit" class="btn btn-primary">Sign up</button>
     </form>
+
+    <a href="homepage.php">Go Home</a>
 
 </div>
 

@@ -36,5 +36,6 @@ $_SESSION["last_name"] = $last_name;
 $_SESSION["email"] = $email;
 $_SESSION["role"] = $role;
 $_SESSION["id"] = $row["id"];
+$_SESSION["user_name"] = $first_name . " " . $last_name;
 
 header("Location:/laba2/homepage.php");

@@ -23,7 +23,7 @@
         </div>
         <button type="submit" class="btn btn-primary">Login</button>
     </form>
-
+    <a href="homepage.php">Go Home</a>
 </div>
 
 </body>
