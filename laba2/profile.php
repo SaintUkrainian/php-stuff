@@ -19,9 +19,6 @@ session_start();
 <div class="container-sm p-10">
     <h1>Your profile</h1>
     <?php
-    if($_SESSION["id"] == null) {
-        header("Location:/laba2/login.php");
-    }
     $array = array();
     parse_str($_SERVER['QUERY_STRING'], $array);
     $id = $array["id"];
